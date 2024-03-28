@@ -1,0 +1,7 @@
+CREATE TABLE `internal__tables` (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(255) NOT NULL,
+    created DATETIME NOT NULL,
+    updated DATETIME NOT NULL
+);
+
